@@ -1,0 +1,14 @@
+/* Tailwind 三条核心指令（v3 模型，配合 tailwind.config.js + postcss.config.js）。 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @xyflow/react 样式说明：
+ * React Flow v12 自带的基础样式（节点边框、连线、控制条、缩略图等）需要单独引入。
+ * 在「真正渲染 <ReactFlow /> 的那个组件文件顶部」加一行：
+ *
+ *     import "@xyflow/react/dist/style.css";
+ *
+ * 或在此 CSS 顶部用 @import "@xyflow/react/dist/style.css";
+ * 本脚手架占位页尚未渲染画布，故暂不引入，等写节点图时再加。
+ */

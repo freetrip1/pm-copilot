@@ -1,0 +1,28 @@
+# ===== 密钥 / 环境（绝不上传）=====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 前端依赖与构建产物 =====
+web/node_modules/
+web/dist/
+web/.vite/
+
+# ===== 运行时产物（每次跑都会重新生成）=====
+checkpoints.sqlite
+checkpoints.sqlite-shm
+checkpoints.sqlite-wal
+prototype_out/
+
+# ===== 临时/调试文件 =====
+*.log
+_t*.py
+_proto_test*/
+.DS_Store
