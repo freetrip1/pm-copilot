@@ -119,8 +119,6 @@ python main.py "需求" --prototype --md out.md  # 一气呵成并导出 markdow
 
 8. **形式严谨可能掩盖实质平庸。** 它会产出结构精美、篇幅可观、看着很专业的东西，但底层判断可能很浅。**当辅助用，别当权威。**
 
-> 一句话：作为求职 demo，上面每一条都是「我懂这类系统边界」的弹药；面试时主动抛出，比 demo 本身更值钱。
-
 ---
 
 <sub>用 LangGraph 编排，遵循 Anthropic《Building Effective Agents》范式。设计与踩坑全记录见 [`DESIGN.md`](DESIGN.md)。</sub>
